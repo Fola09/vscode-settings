@@ -1,0 +1,46 @@
+{
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "workbench.colorTheme": "Night Owl",
+    "python.insidersChannel": "daily",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 19,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 5,
+    "zenMode.hideLineNumbers": false,
+    "solidity.compileUsingRemoteVersion": "0.6.8",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black",
+    "workbench.editor.enablePreview": false,
+    "zenMode.centerLayout": false,
+    "zenMode.hideTabs": false,
+    "rapidapi.terminalLink.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "window.zoomLevel": 1,
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.enableBell": true,
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#00eaff",
+    },
+    "python.analysis.extraPaths": [
+        "/Users/mac/saas/venv/lib/python3.11",
+    ],
+    "terminal.integrated.tabs.location": "right",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.profiles.osx": {
+        "bash": {
+            "path": "/bin/bash",
+            "args": [
+                "-l",
+                "-i"
+            ],
+            "icon": "light-bulb",
+            "color": "terminal.ansiYellow",
+            "env": {}
+        },
+    },
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "workbench.sideBar.location": "right"
+}
+// "#885dff"
