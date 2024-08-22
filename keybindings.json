@@ -1,0 +1,23 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "shift+cmd+j",
+        "command": "workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "ctrl+shift+`",
+        "command": "-workbench.action.terminal.new",
+        "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
+    },
+    {
+        "key": "cmd+j", // you could use     "key": "ctrl+`",  if you wish
+        "command": "workbench.action.closePanel",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+j",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "!terminalFocus"
+    },
+]
